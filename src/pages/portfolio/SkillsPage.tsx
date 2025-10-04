@@ -11,11 +11,11 @@ const SkillsPage = () => {
       <div className="space-y-8">
         <Card className="bg-white dark:bg-gray-800 shadow-lg">
           <CardHeader>
-            <CardTitle className="text-3xl font-bold text-blue-600 dark:text-blue-400 flex items-center gap-2"><Award size={24} /> Domaines de Compétences</CardTitle>
+            <CardTitle className="text-3xl font-bold text-primary dark:text-primary flex items-center gap-2"><Award size={24} /> Domaines de Compétences</CardTitle>
           </CardHeader>
           <CardContent className="flex flex-wrap gap-2">
             {skills.map((skill, index) => (
-              <Badge key={index} variant="secondary" className="px-3 py-1 text-md bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200">
+              <Badge key={index} variant="secondary" className="px-3 py-1 text-md bg-secondary text-secondary-foreground dark:bg-secondary dark:text-secondary-foreground">
                 {skill}
               </Badge>
             ))}

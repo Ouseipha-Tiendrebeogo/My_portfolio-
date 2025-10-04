@@ -10,13 +10,13 @@ const ExperiencePage = () => {
       <div className="space-y-8">
         <Card className="bg-white dark:bg-gray-800 shadow-lg">
           <CardHeader>
-            <CardTitle className="text-3xl font-bold text-blue-600 dark:text-blue-400 flex items-center gap-2"><Briefcase size={24} /> Expériences Professionnelles</CardTitle>
+            <CardTitle className="text-3xl font-bold text-primary dark:text-primary flex items-center gap-2"><Briefcase size={24} /> Expériences Professionnelles</CardTitle>
           </CardHeader>
           <CardContent className="space-y-6">
             {experiences.map((exp, index) => (
-              <div key={index} className="border-l-4 border-blue-500 pl-4">
+              <div key={index} className="border-l-4 border-primary pl-4">
                 <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">{exp.title}</h3>
-                <p className="text-blue-500 dark:text-blue-300 text-md">{exp.company}</p>
+                <p className="text-primary dark:text-primary text-md">{exp.company}</p>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">{exp.duration}</p>
                 {exp.description && <p className="text-gray-700 dark:text-gray-300">{exp.description}</p>}
                 {exp.tasks && (

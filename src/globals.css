@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;600&display=swap');
+
 @layer base {
   :root {
+    /* Light Theme Colors */
     --background: 0 0% 100%; /* White */
     --foreground: 222.2 84% 4.9%; /* Dark text */
 
@@ -13,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --primary: 210 80% 60%; /* Tech Blue */
     --primary-foreground: 0 0% 100%; /* White */
 
     --secondary: 210 40% 96.1%; /* Light Gray */
@@ -30,22 +33,23 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --ring: 210 80% 60%; /* Tech Blue */
 
     --radius: 0.5rem;
 
     /* Sidebar colors for light theme */
     --sidebar-background: 210 40% 98%; /* Very light gray */
     --sidebar-foreground: 222.2 47.4% 11.2%; /* Dark text */
-    --sidebar-primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --sidebar-primary: 210 80% 60%; /* Tech Blue */
     --sidebar-primary-foreground: 0 0% 100%; /* White */
     --sidebar-accent: 210 40% 96.1%; /* Light gray for hover */
     --sidebar-accent-foreground: 222.2 47.4% 11.2%; /* Dark text on hover */
     --sidebar-border: 214.3 31.8% 91.4%; /* Border color */
-    --sidebar-ring: 217.2 91.2% 59.8%; /* Ring color */
+    --sidebar-ring: 210 80% 60%; /* Ring color */
   }
 
   .dark {
+    /* Dark Theme Colors */
     --background: 220 13% 10%; /* Dark Slate */
     --foreground: 210 40% 98%; /* Off-white */
 
@@ -55,7 +59,7 @@
     --popover: 220 13% 12%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --primary: 210 80% 60%; /* Tech Blue */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 220 13% 17%; /* Lighter dark slate for secondary */
@@ -72,17 +76,17 @@
 
     --border: 220 13% 17%;
     --input: 220 13% 17%;
-    --ring: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --ring: 210 80% 60%; /* Tech Blue */
 
     /* Sidebar colors for dark theme */
     --sidebar-background: 220 13% 12%; /* Darker than main background */
     --sidebar-foreground: 210 40% 90%; /* Light text */
-    --sidebar-primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --sidebar-primary: 210 80% 60%; /* Tech Blue */
     --sidebar-primary-foreground: 0 0% 100%; /* White */
     --sidebar-accent: 220 13% 15%; /* Hover state for sidebar items */
     --sidebar-accent-foreground: 210 40% 90%; /* Light text on hover */
     --sidebar-border: 220 13% 17%; /* Border color */
-    --sidebar-ring: 217.2 91.2% 59.8%; /* Ring color */
+    --sidebar-ring: 210 80% 60%; /* Ring color */
   }
 }
 
@@ -92,6 +96,6 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans; /* Apply Inter as default */
   }
 }
