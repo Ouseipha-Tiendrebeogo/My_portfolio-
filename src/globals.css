@@ -46,6 +46,10 @@
     --sidebar-accent-foreground: 222.2 47.4% 11.2%; /* Dark text on hover */
     --sidebar-border: 214.3 31.8% 91.4%; /* Border color */
     --sidebar-ring: 210 80% 60%; /* Ring color */
+
+    /* Index Page specific colors */
+    --index-background: 210 20% 96%; /* Very subtle cool gray */
+    --index-foreground: 222.2 84% 4.9%; /* Dark text */
   }
 
   .dark {
@@ -87,6 +91,10 @@
     --sidebar-accent-foreground: 210 40% 90%; /* Light text on hover */
     --sidebar-border: 220 13% 17%; /* Border color */
     --sidebar-ring: 210 80% 60%; /* Ring color */
+
+    /* Index Page specific colors */
+    --index-background: 220 15% 15%; /* Deep, sophisticated dark gray */
+    --index-foreground: 210 40% 98%; /* Off-white */
   }
 }
 
