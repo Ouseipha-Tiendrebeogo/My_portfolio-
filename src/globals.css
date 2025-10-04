@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 0 0% 100%; /* White */
+    --foreground: 222.2 84% 4.9%; /* Dark text */
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -13,10 +13,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 210 40% 96.1%; /* Light Gray */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -30,56 +30,58 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217.2 91.2% 59.8%; /* Vibrant Blue */
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%; /* Light background for sidebar */
-    --sidebar-foreground: 240 5.3% 26.1%; /* Darker text for sidebar */
-    --sidebar-primary: 240 5.9% 10%; /* Primary color for active links */
-    --sidebar-primary-foreground: 0 0% 98%; /* Light text on primary */
-    --sidebar-accent: 240 4.8% 95.9%; /* Accent for hover */
-    --sidebar-accent-foreground: 240 5.9% 10%; /* Dark text on accent */
-    --sidebar-border: 220 13% 91%; /* Border color */
+    /* Sidebar colors for light theme */
+    --sidebar-background: 210 40% 98%; /* Very light gray */
+    --sidebar-foreground: 222.2 47.4% 11.2%; /* Dark text */
+    --sidebar-primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 210 40% 96.1%; /* Light gray for hover */
+    --sidebar-accent-foreground: 222.2 47.4% 11.2%; /* Dark text on hover */
+    --sidebar-border: 214.3 31.8% 91.4%; /* Border color */
     --sidebar-ring: 217.2 91.2% 59.8%; /* Ring color */
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 220 13% 10%; /* Dark Slate */
+    --foreground: 210 40% 98%; /* Off-white */
 
-    --card: 222.2 84% 4.9%;
+    --card: 220 13% 12%; /* Slightly lighter dark slate for cards */
     --card-foreground: 210 40% 98%;
 
-    --popover: 222.2 84% 4.9%;
+    --popover: 220 13% 12%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 220 13% 17%; /* Lighter dark slate for secondary */
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
+    --muted: 220 13% 17%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
+    --accent: 220 13% 15%; /* Accent for hover */
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 220 13% 17%;
+    --input: 220 13% 17%;
+    --ring: 217.2 91.2% 59.8%; /* Vibrant Blue */
 
-    --sidebar-background: 240 5.9% 10%; /* Dark background for sidebar */
-    --sidebar-foreground: 240 4.8% 95.9%; /* Light text for sidebar */
-    --sidebar-primary: 224.3 76.3% 48%; /* Primary color for active links */
-    --sidebar-primary-foreground: 0 0% 100%; /* White text on primary */
-    --sidebar-accent: 240 3.7% 15.9%; /* Accent for hover */
-    --sidebar-accent-foreground: 240 4.8% 95.9%; /* Light text on accent */
-    --sidebar-border: 240 3.7% 15.9%; /* Border color */
+    /* Sidebar colors for dark theme */
+    --sidebar-background: 220 13% 12%; /* Darker than main background */
+    --sidebar-foreground: 210 40% 90%; /* Light text */
+    --sidebar-primary: 217.2 91.2% 59.8%; /* Vibrant Blue */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 220 13% 15%; /* Hover state for sidebar items */
+    --sidebar-accent-foreground: 210 40% 90%; /* Light text on hover */
+    --sidebar-border: 220 13% 17%; /* Border color */
     --sidebar-ring: 217.2 91.2% 59.8%; /* Ring color */
   }
 }

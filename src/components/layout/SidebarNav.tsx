@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, User, Briefcase, GraduationCap, Award, Languages, Home } from "lucide-react";
+import { Menu, User, Briefcase, GraduationCap, Award, Languages, Home, FolderGit2 } from "lucide-react"; // Added FolderGit2 icon
 import { useIsMobile } from "@/hooks/use-mobile";
 
 interface NavLinkProps {
@@ -59,6 +59,11 @@ const sidebarNavItems = [
     to: "/portfolio/certifications",
     icon: Award, // Reusing Award icon for certifications
     label: "Certifications",
+  },
+  {
+    to: "/portfolio/projects", // New Projects link
+    icon: FolderGit2,
+    label: "Projets",
   },
   {
     to: "/portfolio/languages-interests",

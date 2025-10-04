@@ -12,6 +12,7 @@ import ExperiencePage from "./pages/portfolio/ExperiencePage";
 import EducationPage from "./pages/portfolio/EducationPage";
 import SkillsPage from "./pages/portfolio/SkillsPage";
 import CertificationsPage from "./pages/portfolio/CertificationsPage";
+import ProjectsPage from "./pages/portfolio/ProjectsPage"; // Import the new Projects page
 import LanguagesInterestsPage from "./pages/portfolio/LanguagesInterestsPage";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="education" element={<EducationPage />} />
             <Route path="skills" element={<SkillsPage />} />
             <Route path="certifications" element={<CertificationsPage />} />
+            <Route path="projects" element={<ProjectsPage />} /> {/* Add the new Projects route */}
             <Route path="languages-interests" element={<LanguagesInterestsPage />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
