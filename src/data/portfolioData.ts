@@ -82,15 +82,42 @@ export const education = [
 ];
 
 export const skills = [
-  "Systèmes et virtualisation",
-  "Réseaux et télécoms",
-  "Analyse et traitement des données",
-  "Gestion et supervision",
-  "Développement et serveurs",
-  "Analyse et programmation",
-  "Systèmes d’exploitation",
-  "Bureautique et design",
-  "Maintenace & Électricité",
+  {
+    name: "Systèmes et virtualisation",
+    description: "Maîtrise des systèmes d'exploitation (Linux, Windows Server) et des technologies de virtualisation (VMware, VirtualBox, Docker, Kubernetes).",
+  },
+  {
+    name: "Réseaux et télécoms",
+    description: "Conception, configuration et maintenance d'infrastructures réseau (TCP/IP, routage, switching, VPN, pare-feu) et télécoms.",
+  },
+  {
+    name: "Analyse et traitement des données",
+    description: "Compétences en collecte, analyse et interprétation de données pour l'optimisation des systèmes et la prise de décision.",
+  },
+  {
+    name: "Gestion et supervision",
+    description: "Mise en place et administration d'outils de supervision (Zabbix, Nagios) et gestion de projets IT.",
+  },
+  {
+    name: "Développement et serveurs",
+    description: "Déploiement et gestion de serveurs web (Apache, Nginx), bases de données (MySQL, PostgreSQL) et scripting (Bash, Python).",
+  },
+  {
+    name: "Analyse et programmation",
+    description: "Capacité à analyser les besoins, concevoir des solutions logicielles et programmer en divers langages (Python, PHP, JavaScript).",
+  },
+  {
+    name: "Systèmes d’exploitation",
+    description: "Expertise approfondie des systèmes d'exploitation Linux (Debian, Ubuntu, CentOS) et Windows Server.",
+  },
+  {
+    name: "Bureautique et design",
+    description: "Maîtrise des outils bureautiques (Microsoft Office, LibreOffice) et notions de design pour la création de supports visuels.",
+  },
+  {
+    name: "Maintenace & Électricité",
+    description: "Compétences en maintenance matérielle informatique et connaissances de base en électricité pour les infrastructures IT.",
+  },
 ];
 
 export const certifications = [
