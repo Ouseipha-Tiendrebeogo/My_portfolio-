@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background text-foreground p-4">
       <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App test</h1>
+        <h1 className="text-4xl font-bold mb-4">BIENVENUE DANS MON PORTFOLIO</h1>
         <p className="text-xl text-muted-foreground mb-8">
           Start building your amazing project here!
         </p>
