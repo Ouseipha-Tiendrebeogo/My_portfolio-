@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-background text-foreground p-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-950 dark:to-gray-900 text-foreground p-4">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">BIENVENUE DANS MON PORTFOLIO</h1>
         <p className="text-xl text-muted-foreground mb-8">
