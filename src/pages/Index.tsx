@@ -16,7 +16,7 @@ const Index = () => {
           </Button>
         </Link>
       </div>
-      <Fait par Ouseipha />
+      <MadeWithDyad />
     </div>
   );
 };
