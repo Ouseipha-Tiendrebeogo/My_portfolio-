@@ -8,7 +8,7 @@ const Index = () => {
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">BIENVENUE DANS MON PORTFOLIO</h1>
         <p className="text-xl text-muted-foreground mb-8">
-          Start building your amazing project here!
+         Je vous invite à visiter mon portfolio pour en savoir plus sur moi
         </p>
         <Link to="/portfolio">
           <Button className="bg-primary hover:bg-primary-foreground text-primary-foreground dark:bg-primary dark:hover:bg-primary-foreground">
