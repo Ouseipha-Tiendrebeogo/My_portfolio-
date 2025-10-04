@@ -90,6 +90,7 @@ export const skills = [
   "Analyse et programmation",
   "Systèmes d’exploitation",
   "Bureautique et design",
+  "Maintenace & Électricité",
 ];
 
 export const certifications = [
