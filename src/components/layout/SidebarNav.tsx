@@ -99,7 +99,7 @@ export const SidebarNav: React.FC = () => {
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="flex flex-col bg-sidebar-background text-sidebar-foreground">
+        <SheetContent side="left" className="flex flex-col bg-white text-sidebar-foreground">
           <nav className="grid gap-2 text-lg font-medium">
             <Link to="/portfolio/details" className="flex items-center gap-2 text-lg font-semibold text-sidebar-primary">
               <span className="sr-only">Portfolio</span>
@@ -112,7 +112,7 @@ export const SidebarNav: React.FC = () => {
   }
 
   return (
-    <div className="hidden border-r bg-sidebar-background lg:block h-full">
+    <div className="hidden border-r bg-white lg:block h-full">
       <div className="flex h-full max-h-screen flex-col gap-2">
         <div className="flex h-[60px] items-center border-b px-6">
           <Link to="/portfolio/details" className="flex items-center gap-2 font-semibold text-sidebar-primary">
