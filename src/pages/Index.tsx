@@ -19,10 +19,12 @@ const Index = () => {
           </Link>
         </div>
         <div className="md:w-1/2 flex justify-center md:justify-end">
-          {/* Placeholder for the image */}
-          <div className="w-64 h-64 md:w-80 md:h-80 bg-gray-700 dark:bg-gray-700 rounded-full flex items-center justify-center overflow-hidden">
-            {/* You can replace this with an actual image later */}
-            <span className="text-gray-300 text-xl">Votre Photo</span>
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center overflow-hidden border-4 border-primary shadow-lg">
+            <img
+              src="/images/profile-placeholder.svg" // Utilisation de l'image de profil
+              alt="Photo de profil"
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>
