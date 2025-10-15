@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, User, Briefcase, GraduationCap, Award, Languages, Home, FolderGit2 } from "lucide-react"; // Added FolderGit2 icon
+import { Menu, User, Briefcase, GraduationCap, Award, Languages, Home, FolderGit2 } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
 interface NavLinkProps {
@@ -99,7 +99,7 @@ export const SidebarNav: React.FC = () => {
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="flex flex-col bg-sidebar-background">
+        <SheetContent side="left" className="flex flex-col bg-gray-100 dark:bg-gray-800"> {/* Changed background to grey */}
           <nav className="grid gap-2 text-lg font-medium">
             <Link to="/portfolio/details" className="flex items-center gap-2 text-lg font-semibold text-sidebar-primary">
               <span className="sr-only">Portfolio</span>
