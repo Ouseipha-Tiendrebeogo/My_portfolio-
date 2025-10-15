@@ -48,8 +48,8 @@
     --sidebar-ring: 220 20% 10%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
-    --index-background: 210 20% 98%; /* Très léger gris bleuté */
-    --index-foreground: 220 20% 10%; /* Très foncé bleu-gris */
+    --index-background: 210 80% 40%; /* Un bleu vif pour l'arrière-plan */
+    --index-foreground: 0 0% 100%; /* Blanc pour le texte */
   }
 
   .dark {
@@ -93,8 +93,8 @@
     --sidebar-ring: 220 20% 10%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
-    --index-background: 220 20% 8%; /* Très foncé bleu-gris */
-    --index-foreground: 210 10% 85%; /* Gris clair */
+    --index-background: 210 80% 40%; /* Un bleu vif pour l'arrière-plan */
+    --index-foreground: 0 0% 100%; /* Blanc pour le texte */
   }
 }
 
