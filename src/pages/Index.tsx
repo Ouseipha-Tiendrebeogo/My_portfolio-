@@ -21,7 +21,7 @@ const Index = () => {
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full flex items-center justify-center overflow-hidden border-4 border-primary shadow-lg">
             <img
-              src="/images/profile-placeholder.svg" // Utilisation de l'image de profil
+              src="/images/IMG_0438.JPG" // Chemin mis à jour pour utiliser la nouvelle image
               alt="Photo de profil"
               className="w-full h-full object-cover"
             />
