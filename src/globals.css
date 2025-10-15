@@ -7,94 +7,94 @@
 @layer base {
   :root {
     /* Light Theme Colors */
-    --background: 210 20% 98%; /* Très léger gris bleuté */
-    --foreground: 222.2 84% 4.9%; /* Dark text */
+    --background: 210 30% 98%; /* Très léger gris bleuté */
+    --foreground: 210 10% 20%; /* Gris anthracite foncé */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* Blanc */
+    --card-foreground: 210 10% 20%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%; /* Blanc */
+    --popover-foreground: 210 10% 20%;
 
-    --primary: 210 80% 60%; /* Tech Blue */
-    --primary-foreground: 0 0% 100%; /* White */
+    --primary: 200 70% 45%; /* Bleu-vert moyen */
+    --primary-foreground: 0 0% 100%; /* Blanc */
 
-    --secondary: 210 40% 96.1%; /* Light Gray */
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 30% 90%; /* Gris-bleu clair */
+    --secondary-foreground: 210 10% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 30% 90%;
+    --muted-foreground: 210 10% 45%; /* Gris moyen */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 210 30% 90%;
+    --accent-foreground: 210 10% 20%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 80% 55%; /* Rouge */
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 210 80% 60%; /* Tech Blue */
+    --border: 210 20% 88%; /* Bordure gris-bleu clair */
+    --input: 210 20% 88%;
+    --ring: 200 70% 45%; /* Bleu-vert moyen */
 
     --radius: 0.5rem;
 
     /* Sidebar colors for light theme */
-    --sidebar-background: 0 0% 100%; /* White */
-    --sidebar-foreground: 222.2 47.4% 11.2%; /* Dark text */
-    --sidebar-primary: 210 80% 60%; /* Tech Blue */
-    --sidebar-primary-foreground: 0 0% 100%; /* White */
-    --sidebar-accent: 210 40% 96.1%; /* Light gray for hover */
-    --sidebar-accent-foreground: 222.2 47.4% 11.2%; /* Dark text on hover */
-    --sidebar-border: 214.3 31.8% 91.4%; /* Border color */
-    --sidebar-ring: 210 80% 60%; /* Ring color */
+    --sidebar-background: 0 0% 100%; /* Blanc */
+    --sidebar-foreground: 210 10% 20%; /* Texte foncé */
+    --sidebar-primary: 200 70% 45%; /* Bleu-vert moyen */
+    --sidebar-primary-foreground: 0 0% 100%; /* Blanc */
+    --sidebar-accent: 210 30% 90%; /* Gris clair pour le survol */
+    --sidebar-accent-foreground: 210 10% 20%; /* Texte foncé au survol */
+    --sidebar-border: 210 20% 88%; /* Couleur de bordure */
+    --sidebar-ring: 200 70% 45%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
-    --index-background: 210 20% 96%; /* Very subtle cool gray */
-    --index-foreground: 222.2 84% 4.9%; /* Dark text */
+    --index-background: 210 30% 95%; /* Gris-bleu clair légèrement plus foncé */
+    --index-foreground: 210 10% 20%; /* Texte foncé */
   }
 
   .dark {
     /* Dark Theme Colors */
-    --background: 220 13% 8%; /* Un gris très foncé pour le fond */
-    --foreground: 210 40% 98%; /* Off-white */
+    --background: 220 20% 10%; /* Gris-bleu foncé profond */
+    --foreground: 210 30% 90%; /* Gris-bleu clair */
 
-    --card: 220 13% 12%; /* Slightly lighter dark slate for cards */
-    --card-foreground: 210 40% 98%;
+    --card: 220 20% 15%; /* Gris-bleu foncé légèrement plus clair pour les cartes */
+    --card-foreground: 210 30% 90%;
 
-    --popover: 220 13% 12%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 20% 15%;
+    --popover-foreground: 210 30% 90%;
 
-    --primary: 210 80% 60%; /* Tech Blue */
-    --primary-foreground: 210 40% 98%;
+    --primary: 200 70% 60%; /* Bleu-vert plus lumineux */
+    --primary-foreground: 220 20% 10%; /* Fond foncé pour le contraste */
 
-    --secondary: 220 13% 17%; /* Lighter dark slate for secondary */
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 20% 25%; /* Gris-bleu moyen foncé */
+    --secondary-foreground: 210 30% 90%;
 
-    --muted: 220 13% 17%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 20% 25%;
+    --muted-foreground: 210 10% 60%; /* Gris clair moyen */
 
-    --accent: 220 13% 15%; /* Accent for hover */
-    --accent-foreground: 210 40% 98%;
+    --accent: 220 20% 25%; /* Accent pour le survol */
+    --accent-foreground: 210 30% 90%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 60%; /* Rouge plus lumineux */
+    --destructive-foreground: 220 20% 10%;
 
-    --border: 220 13% 17%;
-    --input: 220 13% 17%;
-    --ring: 210 80% 60%; /* Tech Blue */
+    --border: 220 20% 20%; /* Bordure gris-bleu plus foncé */
+    --input: 220 20% 20%;
+    --ring: 200 70% 60%; /* Bleu-vert plus lumineux */
 
     /* Sidebar colors for dark theme */
-    --sidebar-background: 0 0% 100%; /* White */
-    --sidebar-foreground: 210 40% 90%; /* Light text */
-    --sidebar-primary: 210 80% 60%; /* Tech Blue */
-    --sidebar-primary-foreground: 0 0% 100%; /* White */
-    --sidebar-accent: 220 13% 15%; /* Hover state for sidebar items */
-    --sidebar-accent-foreground: 210 40% 90%; /* Light text on hover */
-    --sidebar-border: 220 13% 17%; /* Border color */
-    --sidebar-ring: 210 80% 60%; /* Ring color */
+    --sidebar-background: 220 20% 15%; /* Fond foncé */
+    --sidebar-foreground: 210 30% 90%; /* Texte clair */
+    --sidebar-primary: 200 70% 60%; /* Bleu-vert plus lumineux */
+    --sidebar-primary-foreground: 220 20% 10%; /* Fond foncé */
+    --sidebar-accent: 220 20% 25%; /* État de survol pour les éléments de la barre latérale */
+    --sidebar-accent-foreground: 210 30% 90%; /* Texte clair au survol */
+    --sidebar-border: 220 20% 20%; /* Couleur de bordure */
+    --sidebar-ring: 200 70% 60%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
-    --index-background: 220 15% 15%; /* Deep, sophisticated dark gray */
-    --index-foreground: 210 40% 98%; /* Off-white */
+    --index-background: 220 20% 12%; /* Gris-bleu foncé légèrement plus clair */
+    --index-foreground: 210 30% 90%; /* Gris-bleu clair */
   }
 }
 
