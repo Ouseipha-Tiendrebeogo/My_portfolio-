@@ -14,7 +14,7 @@ const Index = () => {
           </h1>
           <Link to="/portfolio/details">
             <Button variant="outline" className="mt-4 text-primary border-primary hover:bg-primary hover:text-primary-foreground">
-              Contactez-moi
+              Parcourir mon portfolio
             </Button>
           </Link>
         </div>
