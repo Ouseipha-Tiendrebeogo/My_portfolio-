@@ -7,7 +7,7 @@
 @layer base {
   :root {
     /* Light Theme Colors */
-    --background: 210 30% 98%; /* Très léger gris bleuté */
+    --background: 210 20% 98%; /* Très léger gris bleuté */
     --foreground: 210 10% 20%; /* Gris anthracite foncé */
 
     --card: 0 0% 100%; /* Blanc */
@@ -16,7 +16,7 @@
     --popover: 0 0% 100%; /* Blanc */
     --popover-foreground: 210 10% 20%;
 
-    --primary: 200 70% 45%; /* Bleu-vert moyen */
+    --primary: 174 72% 40%; /* Bleu-vert vibrant */
     --primary-foreground: 0 0% 100%; /* Blanc */
 
     --secondary: 210 30% 90%; /* Gris-bleu clair */
@@ -33,19 +33,19 @@
 
     --border: 210 20% 88%; /* Bordure gris-bleu clair */
     --input: 210 20% 88%;
-    --ring: 200 70% 45%; /* Bleu-vert moyen */
+    --ring: 174 72% 40%; /* Bleu-vert vibrant */
 
     --radius: 0.5rem;
 
     /* Sidebar colors for light theme */
     --sidebar-background: 0 0% 100%; /* Blanc */
     --sidebar-foreground: 210 10% 20%; /* Texte foncé */
-    --sidebar-primary: 200 70% 45%; /* Bleu-vert moyen */
+    --sidebar-primary: 174 72% 40%; /* Bleu-vert vibrant */
     --sidebar-primary-foreground: 0 0% 100%; /* Blanc */
     --sidebar-accent: 210 30% 90%; /* Gris clair pour le survol */
     --sidebar-accent-foreground: 210 10% 20%; /* Texte foncé au survol */
     --sidebar-border: 210 20% 88%; /* Couleur de bordure */
-    --sidebar-ring: 200 70% 45%; /* Couleur de l'anneau */
+    --sidebar-ring: 174 72% 40%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
     --index-background: 210 30% 95%; /* Gris-bleu clair légèrement plus foncé */
@@ -63,7 +63,7 @@
     --popover: 220 20% 15%;
     --popover-foreground: 210 30% 90%;
 
-    --primary: 200 70% 60%; /* Bleu-vert plus lumineux */
+    --primary: 174 72% 55%; /* Bleu-vert plus lumineux */
     --primary-foreground: 220 20% 10%; /* Fond foncé pour le contraste */
 
     --secondary: 220 20% 25%; /* Gris-bleu moyen foncé */
@@ -80,17 +80,19 @@
 
     --border: 220 20% 20%; /* Bordure gris-bleu plus foncé */
     --input: 220 20% 20%;
-    --ring: 200 70% 60%; /* Bleu-vert plus lumineux */
+    --ring: 174 72% 55%; /* Bleu-vert plus lumineux */
+
+    --radius: 0.5rem;
 
     /* Sidebar colors for dark theme */
     --sidebar-background: 220 20% 15%; /* Fond foncé */
     --sidebar-foreground: 210 30% 90%; /* Texte clair */
-    --sidebar-primary: 200 70% 60%; /* Bleu-vert plus lumineux */
+    --sidebar-primary: 174 72% 55%; /* Bleu-vert plus lumineux */
     --sidebar-primary-foreground: 220 20% 10%; /* Fond foncé */
     --sidebar-accent: 220 20% 25%; /* État de survol pour les éléments de la barre latérale */
     --sidebar-accent-foreground: 210 30% 90%; /* Texte clair au survol */
     --sidebar-border: 220 20% 20%; /* Couleur de bordure */
-    --sidebar-ring: 200 70% 60%; /* Couleur de l'anneau */
+    --sidebar-ring: 174 72% 55%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
     --index-background: 220 20% 12%; /* Gris-bleu foncé légèrement plus clair */
