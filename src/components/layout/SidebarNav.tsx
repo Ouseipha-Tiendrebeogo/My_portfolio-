@@ -22,10 +22,10 @@ const NavLink: React.FC<NavLinkProps> = ({ to, icon: Icon, label }) => {
     <Link
       to={to}
       className={cn(
-        "flex items-center gap-3 rounded-lg px-3 py-2 transition-all hover:text-primary",
+        "flex items-center gap-3 rounded-lg px-3 py-2 transition-all",
         isActive
           ? "bg-sidebar-primary text-sidebar-primary-foreground"
-          : "text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
+          : "text-sidebar-foreground hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-primary"
       )}
     >
       <Icon className="h-4 w-4" />
@@ -82,7 +82,7 @@ export const SidebarNav: React.FC = () => {
       ))}
       <Link
         to="/"
-        className="flex items-center gap-3 rounded-lg px-3 py-2 text-sidebar-foreground transition-all hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
+        className="flex items-center gap-3 rounded-lg px-3 py-2 text-sidebar-foreground transition-all hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-primary"
       >
         <Home className="h-4 w-4" />
         Retour à l'accueil
@@ -99,7 +99,7 @@ export const SidebarNav: React.FC = () => {
             <span className="sr-only">Toggle navigation menu</span>
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="flex flex-col bg-gray-100 dark:bg-gray-800"> {/* Changed background to grey */}
+        <SheetContent side="left" className="flex flex-col bg-gray-100 dark:bg-gray-800">
           <nav className="grid gap-2 text-lg font-medium">
             <Link to="/portfolio/details" className="flex items-center gap-2 text-lg font-semibold text-sidebar-primary">
               <span className="sr-only">Portfolio</span>
