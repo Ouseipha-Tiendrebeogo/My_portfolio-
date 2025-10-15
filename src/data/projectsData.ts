@@ -1,32 +1,65 @@
 export const projects = [
   {
+    id: "supervision-reseau",
     title: "Projet de Supervision Réseau",
     description: "Mise en place d'une solution de supervision réseau complète avec Zabbix pour monitorer les serveurs, équipements réseau et services critiques.",
+    longDescription: "Ce projet a consisté à concevoir et déployer une infrastructure de supervision réseau robuste et évolutive en utilisant Zabbix. L'objectif était de fournir une visibilité en temps réel sur la performance et la disponibilité des serveurs, des équipements réseau (routeurs, switchs) et des services applicatifs critiques. J'ai configuré des agents Zabbix, créé des tableaux de bord personnalisés avec Grafana pour une visualisation intuitive, et mis en place des alertes proactives pour détecter et résoudre rapidement les incidents. Des scripts Bash ont été développés pour automatiser certaines tâches de collecte de données et d'intervention.",
     technologies: ["Zabbix", "Linux", "Grafana", "Scripting Bash"],
-    link: "#", // Remplacez par le lien réel de votre projet (GitHub, démo, etc.)
+    link: "#", // Le lien sera mis à jour pour pointer vers la page de détail
+    images: ["/placeholder.svg", "/placeholder.svg"], // Exemple d'images
   },
   {
+    id: "infrastructure-cloud-privee",
     title: "Déploiement d'une Infrastructure Cloud Privée",
     description: "Conception et déploiement d'une infrastructure de cloud privé basée sur OpenStack pour l'hébergement de machines virtuelles et de services internes.",
+    longDescription: "J'ai dirigé la conception et le déploiement d'une infrastructure de cloud privé en utilisant OpenStack. Ce projet visait à offrir une plateforme flexible et scalable pour l'hébergement de machines virtuelles et de services internes, réduisant ainsi la dépendance aux solutions cloud publiques. J'ai mis en œuvre des composants clés comme Nova (calcul), Neutron (réseau), Cinder (stockage par blocs) et Glance (images). L'intégration avec KVM pour la virtualisation et Ceph pour le stockage distribué a été réalisée, et Ansible a été utilisé pour automatiser le déploiement et la configuration des nœuds.",
     technologies: ["OpenStack", "KVM", "Ceph", "Ansible"],
     link: "#",
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
+    id: "securisation-serveurs-web",
     title: "Sécurisation de Serveurs Web",
     description: "Implémentation de mesures de sécurité avancées pour des serveurs web (Apache/Nginx) incluant la configuration de pare-feu, la détection d'intrusions et la gestion des certificats SSL.",
+    longDescription: "Ce projet a porté sur le renforcement de la sécurité de serveurs web critiques fonctionnant sous Apache et Nginx. J'ai mis en place des politiques de pare-feu strictes avec IPTables, configuré Fail2Ban pour la détection et le blocage des tentatives d'intrusion, et assuré la gestion des certificats SSL/TLS via Certbot pour garantir des communications chiffrées. Des audits de sécurité réguliers ont été effectués pour identifier et corriger les vulnérabilités, et des bonnes pratiques de configuration ont été appliquées pour minimiser la surface d'attaque.",
     technologies: ["Nginx", "Apache", "Fail2Ban", "Certbot", "IPTables"],
     link: "#",
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
+    id: "automatisation-ansible",
     title: "Automatisation de Déploiements avec Ansible",
     description: "Développement de playbooks Ansible pour automatiser le déploiement et la configuration de multiples serveurs Linux, réduisant le temps de mise en service.",
+    longDescription: "J'ai développé une série de playbooks Ansible pour automatiser entièrement le déploiement et la configuration de serveurs Linux. L'objectif était de standardiser les environnements, de réduire les erreurs manuelles et d'accélérer le processus de mise en service. Les playbooks couvraient l'installation de paquets, la configuration de services, la gestion des utilisateurs et des droits, et le déploiement d'applications. L'utilisation de Git pour le contrôle de version des playbooks a permis une collaboration efficace et un suivi des modifications.",
     technologies: ["Ansible", "Linux", "YAML", "Git"],
     link: "#",
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
   {
+    id: "vpn-entreprise",
     title: "Mise en place d'un VPN d'entreprise",
     description: "Configuration et déploiement d'un réseau privé virtuel (VPN) pour permettre un accès sécurisé aux ressources internes de l'entreprise pour les télétravailleurs.",
+    longDescription: "Ce projet a impliqué la conception, la configuration et le déploiement d'un réseau privé virtuel (VPN) pour sécuriser l'accès des employés distants aux ressources internes de l'entreprise. J'ai utilisé OpenVPN pour sa flexibilité et sa robustesse, en le configurant sur un pare-feu pfSense. La gestion des certificats SSL a été cruciale pour garantir l'authentification et le chiffrement des communications. Des tests approfondis ont été réalisés pour assurer la connectivité, la performance et la sécurité du VPN.",
     technologies: ["OpenVPN", "pfSense", "Certificats SSL"],
     link: "#",
+    images: ["/placeholder.svg", "/placeholder.svg"],
+  },
+  {
+    id: "gestion-incidents-securite",
+    title: "Gestion des Incidents de Sécurité",
+    description: "Mise en place d'un processus de gestion des incidents de sécurité incluant la détection, l'analyse et la réponse aux menaces cybernétiques.",
+    longDescription: "J'ai élaboré et mis en œuvre un cadre de gestion des incidents de sécurité pour une organisation. Cela comprenait la définition des procédures de détection des incidents (via SIEM et outils de supervision), l'analyse forensique des systèmes compromis, et la coordination des équipes pour une réponse rapide et efficace. L'objectif était de minimiser l'impact des attaques et de restaurer les services affectés dans les plus brefs délais, tout en documentant les leçons apprises pour améliorer la posture de sécurité.",
+    technologies: ["SIEM", "Analyse Forensique", "Scripting Python", "Gestion de Crise"],
+    link: "#",
+    images: ["/placeholder.svg", "/placeholder.svg"],
+  },
+  {
+    id: "migration-serveurs",
+    title: "Migration de Serveurs et Services",
+    description: "Planification et exécution de la migration de serveurs physiques vers des environnements virtualisés ou cloud, avec minimisation des interruptions.",
+    longDescription: "Ce projet a consisté à planifier et exécuter la migration de plusieurs serveurs et services critiques d'une infrastructure physique existante vers un environnement virtualisé (VMware) et, pour certains, vers un cloud privé. J'ai effectué une analyse approfondie des dépendances, créé des images de machines virtuelles, et mis en place des stratégies de basculement pour minimiser les temps d'arrêt. La validation post-migration a été rigoureuse pour assurer la pleine fonctionnalité et la performance des services.",
+    technologies: ["VMware", "Linux", "Windows Server", "Scripting PowerShell"],
+    link: "#",
+    images: ["/placeholder.svg", "/placeholder.svg"],
   },
 ];
