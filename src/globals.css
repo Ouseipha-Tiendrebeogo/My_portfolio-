@@ -6,97 +6,95 @@
 
 @layer base {
   :root {
-    /* Light Theme Colors */
-    --background: 220 10% 95%; /* Un gris clair distinct */
-    --foreground: 210 10% 20%; /* Gris anthracite foncé */
+    /* Light Theme Colors (Complementary to dark theme) */
+    --background: 210 20% 98%; /* Très léger gris bleuté */
+    --foreground: 220 20% 10%; /* Très foncé bleu-gris */
 
     --card: 0 0% 100%; /* Blanc */
-    --card-foreground: 210 10% 20%;
+    --card-foreground: 220 20% 10%;
 
     --popover: 0 0% 100%; /* Blanc */
-    --popover-foreground: 210 10% 20%;
+    --popover-foreground: 220 20% 10%;
 
-    --primary: 174 72% 40%; /* Bleu-vert vibrant */
+    --primary: 220 20% 10%; /* Très foncé bleu-gris pour les accents/boutons */
     --primary-foreground: 0 0% 100%; /* Blanc */
 
     --secondary: 210 30% 90%; /* Gris-bleu clair */
-    --secondary-foreground: 210 10% 20%;
+    --secondary-foreground: 220 20% 10%;
 
     --muted: 210 30% 90%;
     --muted-foreground: 210 10% 45%; /* Gris moyen */
 
     --accent: 210 30% 90%;
-    --accent-foreground: 210 10% 20%;
+    --accent-foreground: 220 20% 10%;
 
     --destructive: 0 80% 55%; /* Rouge */
     --destructive-foreground: 0 0% 100%;
 
     --border: 210 20% 88%; /* Bordure gris-bleu clair */
     --input: 210 20% 88%;
-    --ring: 174 72% 40%; /* Bleu-vert vibrant */
+    --ring: 220 20% 10%; /* Très foncé bleu-gris */
 
     --radius: 0.5rem;
 
     /* Sidebar colors for light theme */
-    --sidebar-background: 0 0% 98%; /* Très léger gris pour la sidebar */
-    --sidebar-foreground: 210 10% 20%; /* Texte foncé */
-    --sidebar-primary: 174 72% 40%; /* Bleu-vert vibrant */
+    --sidebar-background: 0 0% 100%; /* Blanc */
+    --sidebar-foreground: 220 20% 10%; /* Texte foncé */
+    --sidebar-primary: 220 20% 10%; /* Très foncé bleu-gris */
     --sidebar-primary-foreground: 0 0% 100%; /* Blanc */
     --sidebar-accent: 210 30% 90%; /* Gris clair pour le survol */
-    --sidebar-accent-foreground: 210 10% 20%; /* Texte foncé au survol */
+    --sidebar-accent-foreground: 220 20% 10%; /* Texte foncé au survol */
     --sidebar-border: 210 20% 88%; /* Couleur de bordure */
-    --sidebar-ring: 174 72% 40%; /* Couleur de l'anneau */
+    --sidebar-ring: 220 20% 10%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
-    --index-background: 220 10% 92%; /* Un gris clair légèrement plus foncé pour l'index */
-    --index-foreground: 210 10% 20%; /* Texte foncé */
+    --index-background: 210 20% 98%; /* Très léger gris bleuté */
+    --index-foreground: 220 20% 10%; /* Très foncé bleu-gris */
   }
 
   .dark {
-    /* Dark Theme Colors */
-    --background: 220 15% 10%; /* Un gris foncé distinct */
-    --foreground: 210 30% 90%; /* Gris-bleu clair */
+    /* Dark Theme Colors (Inspired by Figma model) */
+    --background: 220 20% 8%; /* Très foncé bleu-gris */
+    --foreground: 210 10% 85%; /* Gris clair */
 
-    --card: 220 20% 15%; /* Gris-bleu foncé légèrement plus clair pour les cartes */
-    --card-foreground: 210 30% 90%;
+    --card: 220 15% 12%; /* Gris foncé légèrement plus clair pour les cartes */
+    --card-foreground: 210 10% 85%;
 
-    --popover: 220 20% 15%;
-    --popover-foreground: 210 30% 90%;
+    --popover: 220 15% 12%;
+    --popover-foreground: 210 10% 85%;
 
-    --primary: 174 72% 55%; /* Bleu-vert plus lumineux */
-    --primary-foreground: 220 20% 10%; /* Fond foncé pour le contraste */
+    --primary: 0 0% 100%; /* Blanc pour les accents/boutons */
+    --primary-foreground: 220 20% 8%; /* Très foncé bleu-gris */
 
-    --secondary: 220 20% 25%; /* Gris-bleu moyen foncé */
-    --secondary-foreground: 210 30% 90%;
+    --secondary: 220 15% 20%; /* Gris moyen foncé */
+    --secondary-foreground: 210 10% 85%;
 
-    --muted: 220 20% 25%;
-    --muted-foreground: 210 10% 60%; /* Gris clair moyen */
+    --muted: 220 15% 20%;
+    --muted-foreground: 210 10% 60%; /* Gris moyen clair */
 
-    --accent: 220 20% 25%; /* Accent pour le survol */
-    --accent-foreground: 210 30% 90%;
+    --accent: 220 15% 20%; /* Accent pour le survol */
+    --accent-foreground: 210 10% 85%;
 
     --destructive: 0 70% 60%; /* Rouge plus lumineux */
-    --destructive-foreground: 220 20% 10%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 220 20% 20%; /* Bordure gris-bleu plus foncé */
-    --input: 220 20% 20%;
-    --ring: 174 72% 55%; /* Bleu-vert plus lumineux */
-
-    --radius: 0.5rem;
+    --border: 220 15% 20%; /* Bordure gris moyen foncé */
+    --input: 220 15% 20%;
+    --ring: 0 0% 100%; /* Anneau blanc */
 
     /* Sidebar colors for dark theme */
-    --sidebar-background: 220 20% 18%; /* Gris foncé pour la sidebar */
-    --sidebar-foreground: 210 30% 90%; /* Texte clair */
-    --sidebar-primary: 174 72% 55%; /* Bleu-vert plus lumineux */
-    --sidebar-primary-foreground: 220 20% 10%; /* Fond foncé */
-    --sidebar-accent: 220 20% 25%; /* État de survol pour les éléments de la barre latérale */
-    --sidebar-accent-foreground: 210 30% 90%; /* Texte clair au survol */
-    --sidebar-border: 220 20% 20%; /* Couleur de bordure */
-    --sidebar-ring: 174 72% 55%; /* Couleur de l'anneau */
+    --sidebar-background: 220 20% 8%; /* Très foncé bleu-gris */
+    --sidebar-foreground: 210 10% 85%; /* Texte clair */
+    --sidebar-primary: 0 0% 100%; /* Blanc */
+    --sidebar-primary-foreground: 220 20% 8%; /* Très foncé bleu-gris */
+    --sidebar-accent: 220 15% 20%; /* État de survol pour les éléments de la barre latérale */
+    --sidebar-accent-foreground: 210 10% 85%; /* Texte clair au survol */
+    --sidebar-border: 220 15% 20%; /* Couleur de bordure */
+    --sidebar-ring: 0 0% 100%; /* Couleur de l'anneau */
 
     /* Index Page specific colors */
-    --index-background: 220 15% 12%; /* Gris foncé légèrement plus clair pour l'index */
-    --index-foreground: 210 30% 90%; /* Gris-bleu clair */
+    --index-background: 220 20% 8%; /* Très foncé bleu-gris */
+    --index-foreground: 210 10% 85%; /* Gris clair */
   }
 }
 
@@ -106,6 +104,6 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans; /* Apply Inter as default */
+    @apply bg-background text-foreground font-sans; /* Applique Inter comme police par défaut */
   }
 }
