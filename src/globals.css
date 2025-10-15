@@ -83,7 +83,7 @@
     --ring: 210 80% 60%; /* Tech Blue */
 
     /* Sidebar colors for dark theme */
-    --sidebar-background: 220 15% 8%; /* Deeper, richer dark blue-gray */
+    --sidebar-background: 0 0% 100%; /* White */
     --sidebar-foreground: 210 40% 90%; /* Light text */
     --sidebar-primary: 210 80% 60%; /* Tech Blue */
     --sidebar-primary-foreground: 0 0% 100%; /* White */
